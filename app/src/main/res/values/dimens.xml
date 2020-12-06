@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_search_height">40dp</dimen>
+    <dimen name="view_search_icon_size">20dp</dimen>
+    <dimen name="view_search_icon_margin">10dp</dimen>
+    <dimen name="view_search_margin">24dp</dimen>
+</resources>
