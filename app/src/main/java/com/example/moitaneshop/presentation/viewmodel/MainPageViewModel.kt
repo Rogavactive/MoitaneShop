@@ -33,7 +33,7 @@ internal class MainPageViewModel(
 
     fun filterShops(query: String) {
         queryString = query
-        _shopListLiveData.postValue(data.filter{it.name == query})
+        _shopListLiveData.postValue(data.filter{it.name.contains(query.toUpperCase())})
     }
 
 }

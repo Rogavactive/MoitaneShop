@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="search">Search anywhere</string>
+    <string name="search">ძებნა ყველგან</string>
+    <string name="no_delivery">მიტანა არ არისy</string>
+    <string name="no_work">არ მუშაობს</string>
 </resources>

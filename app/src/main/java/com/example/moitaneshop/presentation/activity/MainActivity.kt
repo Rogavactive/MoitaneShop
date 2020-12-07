@@ -1,12 +1,8 @@
 package com.example.moitaneshop.presentation.activity
 
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.moitaneshop.data.api.RetrofitClient
 import com.example.moitaneshop.databinding.ActivityMainBinding
 import com.example.moitaneshop.presentation.adapter.ShopItemRecyclerAdapter
 import com.example.moitaneshop.presentation.viewmodel.MainPageViewModel

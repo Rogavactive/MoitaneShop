@@ -4,7 +4,7 @@ data class ShopModel(
     val id: Int,
     val name: String,
     val deliveryFee: Double,
-    val averageRating: Double,
+    val averageRating: Int,
     val reviewsCount: Int,
     val logoUrl: String?,
     val backgroundUrl: String?,

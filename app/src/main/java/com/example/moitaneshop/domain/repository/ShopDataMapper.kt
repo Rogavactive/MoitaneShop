@@ -15,9 +15,9 @@ class ShopDataMapper {
     private fun transform(apiModel: MoitaneShopApiEntity): ShopModel = with(apiModel) {
         return ShopModel(
             id,
-            name ?: "",
+            name?.toUpperCase() ?: "",
             deliveryFee.round(2),
-            averageRating.round(2),
+            averageRating.toInt(),
             reviewsCount,
             logoUrl,
             backgroundUrl,
